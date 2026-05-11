@@ -1,0 +1,3 @@
+# Keep real environment files out of the repository.
+Frontend/.env
+Backend/.env
