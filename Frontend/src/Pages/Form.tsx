@@ -40,7 +40,6 @@ const Form = ()  => {
         setCaptchaMessage("Please complete the reCAPTCHA before submitting.");
         return;
       }
-
       try {
         setIsSubmitting(true);
         const res = await createBlog({
